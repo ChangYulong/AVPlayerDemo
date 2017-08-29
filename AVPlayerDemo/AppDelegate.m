@@ -21,6 +21,7 @@
     self.window = [[UIWindow alloc] init];
     ViewController * vc = [[ViewController alloc] init];
     self.window.rootViewController = vc;
+    //初始化
     [self.window makeKeyAndVisible];
     return YES;
 }
